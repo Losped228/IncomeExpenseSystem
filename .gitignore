@@ -1,0 +1,56 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# ReSharper / Rider
+.idea/
+*.DotSettings.user
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# SQLite database and logs created at runtime
+src/IncomeExpenseSystem.App/Data/
+src/IncomeExpenseSystem.App/bin/Debug/net8.0-windows/Data/
+src/IncomeExpenseSystem.App/bin/Release/net8.0-windows/Data/
+src/IncomeExpenseSystem.App/logs/
+*.db
+*.db-shm
+*.db-wal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User-specific generated report files
+Отчет_*.xlsx
+Отчет_*.pdf
